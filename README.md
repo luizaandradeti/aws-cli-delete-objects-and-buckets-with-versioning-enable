@@ -1,12 +1,12 @@
 # Create a account AWS
-## Download AWS cli
+## Download AWS Cli
 **Choose Linux, Mac or Windows:**
   - Download: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html
 
-## Generate access credentials 
+## Generate Create access key
   - https://docs.aws.amazon.com/keyspaces/latest/devguide/create.keypair.html
     
-## Install awsl cli
+## Install AWS Cli
   - **type:** 
 ```aws configure``` in cmd or gitbash
 
