@@ -10,7 +10,7 @@
 ```aws configure``` in cmd or gitbash
 
 #set with you credentials
-
+  - https://docs.aws.amazon.com/keyspaces/latest/devguide/create.keypair.html
 ````
 $ aws configure
 AWS Access Key ID [None]: CHANGE
