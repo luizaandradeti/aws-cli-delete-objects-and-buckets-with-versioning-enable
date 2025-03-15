@@ -1,4 +1,4 @@
-#create a account aws
+# Create a account AWS
 ## Download AWS cli
 **Choose Linux, Mac or Windows":**
   - Download: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html
@@ -10,7 +10,7 @@
   -**type:** 
 ```aws configure``` in cmd or gitbash
 
-# Set with you credentials
+## Set with you credentials
 
 ````
 $ aws configure
