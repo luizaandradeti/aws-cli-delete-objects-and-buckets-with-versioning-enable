@@ -3,14 +3,15 @@
 **Choose Linux, Mac or Windows":**
   - Download: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html
 
-## generate access credentials 
-
-## install awsl cli
+## Generate access credentials 
+  - https://docs.aws.amazon.com/keyspaces/latest/devguide/create.keypair.html
+    
+## Install awsl cli
 **type:** 
 ```aws configure``` in cmd or gitbash
 
-#set with you credentials
-  - https://docs.aws.amazon.com/keyspaces/latest/devguide/create.keypair.html
+# Set with you credentials
+
 ````
 $ aws configure
 AWS Access Key ID [None]: CHANGE
