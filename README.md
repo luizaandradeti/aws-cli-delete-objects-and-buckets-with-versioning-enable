@@ -7,7 +7,7 @@
   - https://docs.aws.amazon.com/keyspaces/latest/devguide/create.keypair.html
     
 ## Install awsl cli
-**type:** 
+  -**type:** 
 ```aws configure``` in cmd or gitbash
 
 # Set with you credentials
