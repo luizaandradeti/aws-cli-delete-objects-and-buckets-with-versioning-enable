@@ -1,5 +1,6 @@
-# Script Automation for S3 AWS 💡 ☁  
-## Functions and scripts developed based on official AWS recommendations to reduce waste, complying with FinOps best practices, in relation to files that are no longer used.
+## Script Automation for S3 AWS 💡 ☁  
+
+Functions and scripts developed based on official AWS recommendations to reduce waste, complying with FinOps best practices, in relation to files that are no longer used.
  	
 - https://docs.aws.amazon.com/cli/latest/reference/s3api/delete-bucket.html
 - https://docs.aws.amazon.com/cli/latest/reference/s3api/delete-object.html
