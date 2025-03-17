@@ -1,23 +1,22 @@
-# Create a account AWS
-💡  Functions and scripts developed based on official AWS recommendations to reduce waste, complying with FinOps best practices, in relation to files that are no longer used.
+# Script Automation for S3 AWS 💡 ☁  
+## Functions and scripts developed based on official AWS recommendations to reduce waste, complying with FinOps best practices, in relation to files that are no longer used.
  	
-
 - https://docs.aws.amazon.com/cli/latest/reference/s3api/delete-bucket.html
 - https://docs.aws.amazon.com/cli/latest/reference/s3api/delete-object.html
 - https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
-## Download AWS Cli
+## Download AWS ClI ⬇️
 **Choose Linux, Mac or Windows:**
   - Download: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html
 
-## Generate Create access key
+## Generate Create access key 🔑
   - https://docs.aws.amazon.com/keyspaces/latest/devguide/create.keypair.html
     
-## Install AWS Cli
+## Install AWS Cli 💻
   - **type:** 
 ```aws configure``` in cmd or gitbash
 
-## Set with you credentials
+## Set with you credentials ⚙️
 
 ````
 $ aws configure
