@@ -12,7 +12,7 @@ Additional documentation for S3 management best practices:
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/analytics-storage-class.html
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html****
 - https://calculator.aws/#/
-- 
+
  **Example:**
  ````
 #list buckets 
