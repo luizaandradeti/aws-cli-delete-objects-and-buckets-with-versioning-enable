@@ -6,6 +6,18 @@ Functions and scripts developed based on official AWS recommendations to reduce 
 - https://docs.aws.amazon.com/cli/latest/reference/s3api/delete-object.html
 - https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
+ **Example:**
+ ````
+#list buckets 
+aws s3 ls
+
+#delete objects
+aws s3 rm --recursive s3://namebucket
+
+#remove bucket
+aws s3 rb --force s3://namebucket
+````
+
 ## Download AWS ClI ⬇️
 **Choose Linux, Mac or Windows:**
   - Download: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html
