@@ -10,7 +10,7 @@ Functions and scripts developed based on official AWS recommendations to reduce 
 Additional documentation for S3 management best practices:
 - https://docs.aws.amazon.com//AmazonS3/latest/userguide/storage-class-intro.html
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/analytics-storage-class.html
-- https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html****
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html
 - https://calculator.aws/#/
 
  **Example:**
