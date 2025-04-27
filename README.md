@@ -24,7 +24,6 @@ aws s3 rm --recursive s3://namebucket
 #remove bucket
 aws s3 rb --force s3://namebucket
 ````
-
 ## Download AWS ClI ⬇️
 **Choose Linux, Mac or Windows:**
   - Download: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html
