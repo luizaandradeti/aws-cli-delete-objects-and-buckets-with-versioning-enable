@@ -1,3 +1,8 @@
+> [!NOTE]
+>
+> Conteúdos deste repositório não foram revisados ainda. 
+
+
 ## Script Automation for S3 AWS 💡 ☁  
 
 Functions and scripts developed based on official AWS recommendations to reduce waste, complying with FinOps best practices, in relation to files that are no longer used.
