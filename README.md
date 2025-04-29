@@ -44,9 +44,9 @@ aws s3 rb --force s3://namebucket
 
 ````
 $ aws configure
-AWS Access Key ID [None]: CHANGE
-AWS Secret Access Key [None]:  CHANGE
-Default region name [None]: us-west-2
+AWS Access Key ID [None]: EXAMPLE
+AWS Secret Access Key [None]:  EXAMPLE
+Default region name [None]: example
 Default output format [None]: json
 ````
 
