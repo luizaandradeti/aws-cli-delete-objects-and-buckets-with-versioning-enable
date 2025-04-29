@@ -1,7 +1,4 @@
 
->[!NOTE]
-> 
-> Os conteúdos deste repositório não foram concluidos ainda.
 
 ## Script Automation for S3 AWS 💡 ☁  
 
@@ -50,3 +47,7 @@ Default region name [None]: us-west-2
 Default output format [None]: json
 ````
 
+
+>[!NOTE]
+> 
+> This material is study personal and does not replace official documentation, always follow the official documentation.
