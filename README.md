@@ -1,7 +1,7 @@
-> [!NOTE]
->
-> Conteúdos deste repositório não foram revisados ainda. 
 
+>[!NOTE]
+> 
+> Os conteúdos deste repositório não foram concluidos ainda.
 
 ## Script Automation for S3 AWS 💡 ☁  
 
