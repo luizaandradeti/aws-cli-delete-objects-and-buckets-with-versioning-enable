@@ -49,5 +49,5 @@ Default output format [None]: json
 
 
 >[!NOTE]
-> 
+> Repository for personal and professional study purposes
 > This material is study personal and does not replace official documentation, always follow the official documentation.
