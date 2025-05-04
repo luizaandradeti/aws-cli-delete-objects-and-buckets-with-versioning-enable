@@ -39,7 +39,7 @@ aws s3 rb --force s3://namebucket
 
 ##  AWS config
 
-![App Screenshot](images/config.png) 
+![App Screenshot](AWS.png) 
 
 ````
 $ aws configure
