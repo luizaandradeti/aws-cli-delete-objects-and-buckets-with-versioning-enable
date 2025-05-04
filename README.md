@@ -39,7 +39,7 @@ aws s3 rb --force s3://namebucket
 
 ##  AWS config
 
-![App Screenshot](images/config.png) 
+![App Screenshot](AWS.png) 
 
 ````
 $ aws configure
@@ -82,43 +82,9 @@ fs.readFile(trn, 'utf8', (err, data) => {
     });
 });
 ````
-````bash
-!/bin/bash
 
-# Check if AWS CLI is installed
-if ! command -v aws &> /dev/null; then
-    echo "AWS CLI is not installed. Please install it before running this script."
-    exit 1
-fi
 
-# Check if list.txt exists
-if [ ! -f "list.txt" ]; then
-    echo "list.txt not found. Please create it before running this script."
-    exit 1
-fi
-
-# Read bucket names from list.txt
-while IFS= read -r line; do
-    bucket_name=$(echo "$line" | tr -d '[:space:]')
-    if [ -n "$bucket_name" ]; then
-        # Check if bucket exists
-        if aws s3 ls "s3://$bucket_name" &> /dev/null; then
-            # Delete all object versions in the bucket
-            aws s3api delete-objects --bucket "$bucket_name" --delete "$(aws s3api list-object-versions --bucket "$bucket_name" --query '{Objects: Versions[].{Key:Key,VersionId:VersionId}}' --output json)"
-            aws s3api delete-objects --bucket "$bucket_name" --delete "$(aws s3api list-object-versions --bucket "$bucket_name" --query '{Objects: DeleteMarkers[].{Key:Key,VersionId:VersionId}}' --output json)"
-            
-            # Delete the bucket
-            aws s3 rb "s3://$bucket_name" --force
-            echo "Bucket $bucket_name deleted"
-        else
-            echo "Bucket $bucket_name does not exist"
-        fi
-    fi
-    
-    # 
-    read -p ""
-```` 
-
->[!NOTE]
+> [!NOTE]
+>
 > Repository for personal and professional study purposes
 > This material is study personal and does not replace official documentation, always follow the official documentation.
